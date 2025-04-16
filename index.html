@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pomodoro Timer First Brainstorm</title>
+    <meta name="meta data" content="this is a required section of the lab">
+  </head>
+  <body>
+    <header>
+        <h1>Pomodoro Timer First Brainstorm</h1>
+        <nav>
+            <a href="/">Home</a>
+
+            <br>
+            <a href="#Attendance">Attenence</a>
+            <details>
+                <summary>Meeting Content</summary>
+                <a href="#Ice breaker">Ice breaker</a>
+                <a href="#Previous meeting">Previous meeting</a>
+                <a href="#To address">To address</a>
+                <a href="#Brainstorm">Brainstorm</a>
+            </details>
+            <a href="#Feedback Form">Feedback Form</a>
+
+            
+        </nav>
+    </header>
+    <main>
+        <hr>
+        <div class="Attendance" id="Attendance">
+            <h2>Attendance:</h2>
+            <ul>
+                <li>Thanh-Long Nguyen-Trong</li>
+                <li>Team member 1</li>
+                <li>Team member 2</li>
+                <li>team member 3</li>
+                <li>team member 4</li>
+                <li>team member 5</li>
+            </ul>
+        </div>
+        
+        
+        <hr>
+        <section id="Meeting content">
+            <div class = "Agenda">
+                <h2>Agenda</h2>
+                <ol>
+                    <li>Ice breaker</li>
+                    <li>Topic 1</li>
+                    <li>Topic 2</li>
+                    <li>Topic 3</li>
+                </ol>
+            </div>
+
+            <div class="Ice breaker" id="Ice breaker">
+                <h2>Ice breaker</h2>
+
+                <p>Click to hear the audio of the day! </p>
+                <audio controls>
+                    <source src="web_files/goofy-sound.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+
+                <p>And now in case you missed it, let's watch clip of the week!</p>
+                <details>
+                    <summary>Click to see the video</summary>
+                    <video src="web_files/brawl-stars-clip.mp4" type="video/mp4" controls>
+                        Your browser does not support the video tag.
+                    </video> 
+                </details>                 
+
+            </div>
+
+            <div class="Previous meeting" id="Previous meeting">
+                <h2>From last meeting</h2>
+                <p>We discussed <em>this</em> idea and <em>that</em> idea.</p>
+            </div>
+            
+            <div class = "To address" id="To address">
+                <h2>New business to address</h2>
+                <p> 
+                    We aim to be able to <b>discuss</b> and <b>finalize</b> these ideas. 
+                    <br> We have to <span>submit</span> this proposal <strong>by tommorow</strong> 
+                </p>
+            </div>
+        
+            <div class="Brainstorm" id = "Brainstorm">
+                <h2>Brainstormming:</h2>
+                <h3>App diagram</h3>
+                <img src="web_files/Diagram.png" alt="diagram"/>
+
+            </div>
+
+        </section>
+
+        <hr>
+
+        <div class="Feedback Form" id="Feedback Form">
+            <h2>Feedback form</h2>
+
+                <form>
+                    <fieldset> 
+                        <div class="Text Input">
+                            <p>Please enter your name, or you can remain anonymous</p>
+                            <input type="text" id="name" name="name">
+
+                            <p>Did you like our ice breaker?</p>
+                            <select name="yay_nay">
+                                <option value="yes">YES!</option>
+                                <option value="no">no...</option>
+                            </select>
+                            
+                            
+                            <p>Any questions/concerns/suggestions to change?</p>
+                            <textarea placeholder="Write any questions/concerns/suggestions here"></textarea>
+                        </div>
+
+                        <div class = "fun question">
+                            <p>What is your favorite color</p>
+                            <input list="color" name="color">
+                            <datalist id="color">
+                                <option value="red">
+                                <option value="blue">
+                                <option value="green">
+                            </datalist>
+                        </div>
+                        
+
+                        <p></p>
+
+                        <div class="Date">
+                            <p>Please include the <i>date</i> that you are submitting this comment</p>
+                            <input type="date" id="date_input" name="date_input">
+                        </div>
+                        
+
+                        <p></p>
+
+                        <div class="Productivity">
+
+                            <p>How productive was this meeting?</p>
+                            <input type="radio" id="Very productive" name="productivity" value="Very productive">
+                            <label for="Very productive">Very productive</label><br>
+
+                            <br>
+
+                            <input type="radio" id="Productive" name="productivity" value="Productive">
+                            <label for="Productive">Productive</label><br>
+
+                            <br>
+
+                            <input type="radio" id="Not Productive" name="productivity" value="Not Productive">
+                            <label for="Not Productive">Not productive</label>
+                        </div>
+
+                        <br>
+                        
+                        <button type="submit">Submit</button>
+                    </fieldset>
+                </form>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>This website was made for lab 2 of CSE 110 Sp 2025</p>
+        <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">Company Website</a>
+    </footer>
+
+  </body>
+</html>
