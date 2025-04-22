@@ -1,3 +1,7 @@
+:root{
+    --default-font-size: 20px;
+}
+
 /* class selector */
 .Attendance{
 
@@ -10,7 +14,7 @@
 
 /* universal selector */
 * {
-
+    font-size: var(--default-font-size, 20px)
 }
 
 /* element selector for a tags */
