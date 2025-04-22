@@ -1,0 +1,65 @@
+/* class selector */
+.Attendance{
+
+}
+
+/* id selector */
+#Meeting_content{
+
+}
+
+/* universal selector */
+* {
+
+}
+
+/* element selector for a tags */
+a {
+
+}
+
+/* attribute selector for text input (the bottom form) */
+input[type="text"] {
+
+}
+
+/* psuedo class css and selector */
+button:hover {
+
+}
+
+/* selector list */
+/* applies the same css for 1, 2, 3 */
+h1, h2, h3 {
+    
+}
+
+/* descendant combinator (all p tags in divs) */
+div p {
+
+}
+
+/* Child Combinator */
+div > p{
+
+}
+
+/* General sibling combinator */
+p.question ~ p.instruction {
+
+}
+
+/* Adjacent sibling combinator */
+p.question + input.color {
+
+}
+
+/* Combining Two Selectors */
+div.Agenda {
+
+}
+
+/* :has() selector for image*/
+div:has(img) {
+    
+}
