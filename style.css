@@ -14,7 +14,8 @@
 
 /* universal selector */
 * {
-    font-size: var(--default-font-size, 20px)
+    font-size: var(--default-font-size, 20px);
+    text-align: center;
 }
 
 /* element selector for a tags */
@@ -42,6 +43,20 @@ button:active{
     background-color: green;
     color: white;
     transform: scale(0.9);
+}
+
+ul, ol{
+    list-style-position: inside; 
+}
+#Attendance{
+    text-align: center;
+    position: center;
+    margin:auto;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: lightgray;
 }
 
 /* selector list */
