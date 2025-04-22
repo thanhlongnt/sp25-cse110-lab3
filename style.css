@@ -29,7 +29,9 @@ input[type="text"] {
 
 /* psuedo class css and selector */
 button:hover {
-
+    background-color: darkblue;
+    color: azure;
+    transform: scale(1.1);
 }
 
 /* selector list */
