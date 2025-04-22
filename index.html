@@ -101,23 +101,22 @@
                 <form>
                     <fieldset> 
                         <div class="Text Input">
-                            <p>Please enter your name, or you can remain anonymous</p>
+                            <p class="instruction">Please enter your name, or you can remain anonymous</p>
                             <input type="text" id="name" name="name">
 
-                            <p>Did you like our ice breaker?</p>
+                            <p class="question">Did you like our ice breaker?</p>
                             <select name="yay_nay">
                                 <option value="yes">YES!</option>
                                 <option value="no">no...</option>
                             </select>
                             
-                            
-                            <p>Any questions/concerns/suggestions?</p>
+                            <p class="question">Any questions/concerns/suggestions?</p>
                             <textarea placeholder="Write any questions/concerns/suggestions here"></textarea>
                         </div>
 
                         <div class = "fun question">
-                            <p>What is your favorite color</p>
-                            <input list="color" name="color">
+                            <p class="question">What is your favorite color</p>
+                            <input class="color" list="color" name="color">
                             <datalist id="color">
                                 <option value="red">
                                 <option value="blue">
@@ -129,7 +128,7 @@
                         <p></p>
 
                         <div class="Date">
-                            <p>Please include the <i>date</i> that you are submitting this comment</p>
+                            <p class="instruction">Please include the <i>date</i> that you are submitting this comment</p>
                             <input type="date" id="date_input" name="date_input">
                         </div>
                         
@@ -138,7 +137,7 @@
 
                         <div class="Productivity">
 
-                            <p>How productive was this meeting?</p>
+                            <p class="question">How productive was this meeting?</p>
                             <input type="radio" id="Very_productive" name="productivity" value="Very productive">
                             <label for="Very_productive">Very productive</label><br>
 
