@@ -27,9 +27,21 @@ input[type="text"] {
 
 }
 
+button {
+    background-color: red;
+}
+
 /* psuedo class css and selector */
 button:hover {
+    background-color: yellow;
+    color: black;
+    transform: scale(1.1);
+}
 
+button:active{
+    background-color: green;
+    color: white;
+    transform: scale(0.9);
 }
 
 /* selector list */
