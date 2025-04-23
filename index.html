@@ -74,16 +74,19 @@
                 <img id="flowchart" src="web_files/Diagram.png" alt="diagram">
             </div>
 
+            <h2>Meeting Recordings</h2>
             <div class="Recordings" id="Recordings">
-                <h2>Meeting Recordings</h2>
-
-                <p>In case you missed the meeting, here is a recording of the meeting in audio and video format!</p>
+                <div id="text_recording">
+                    <p>In case you missed the meeting, here is a recording of the meeting in audio and video format!</p>
+                </div>
+                
+                
                 <audio controls id="audio-recording">
                     <source src="web_files/meeting_recording.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
 
-                <details>
+                <details id="video">
                     <summary>Click to see the video recording</summary>
                     <video src="web_files/meeting_recording.mov" controls>
                         Your browser does not support the video tag.
@@ -100,16 +103,20 @@
 
                 <form>
                     <fieldset> 
-                        <div class="Text Input">
+                        <div>
                             <p class="instruction">Please enter your name, or you can remain anonymous</p>
                             <input type="text" id="name" name="name">
+                        </div>
 
+                        <div>
                             <p class="question">Did you like our ice breaker?</p>
                             <select name="yay_nay">
                                 <option value="yes">YES!</option>
                                 <option value="no">no...</option>
                             </select>
-                            
+                        </div>
+
+                        <div>
                             <p class="question">Any questions/concerns/suggestions?</p>
                             <textarea placeholder="Write any questions/concerns/suggestions here"></textarea>
                         </div>
@@ -123,17 +130,11 @@
                                 <option value="green">
                             </datalist>
                         </div>
-                        
-
-                        <p></p>
 
                         <div class="Date">
                             <p class="instruction">Please include the <i>date</i> that you are submitting this comment</p>
                             <input type="date" id="date_input" name="date_input">
                         </div>
-                        
-
-                        <p></p>
 
                         <div class="Productivity">
 
@@ -151,11 +152,9 @@
                             <input type="radio" id="Not_Productive" name="productivity" value="Not Productive">
                             <label for="Not_Productive">Not productive</label>
                         </div>
-
-                        <br>
                         
-                        <button type="submit">Submit</button>
                     </fieldset>
+                    <button type="submit">Submit</button>
                 </form>
 
         </div>
