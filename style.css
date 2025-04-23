@@ -10,7 +10,11 @@
     margin:auto;
     width: 40vw;
     padding: 5px;
-    border: 5px solid black;
+    
+    border: 5px;
+    border-style:solid;
+    border-color: #000000;
+    
     font-family: 'Playwrite AU SA', sans-serif;
     font-size: 1.5em;
 }
@@ -34,7 +38,7 @@
     height: 100%;
     padding: 20px;
     border: 5px solid black;
-    background-color: lightgray;
+    background-color: hsl(0, 0%, 83%);
 }
 
 #Feedback_Form {
@@ -48,8 +52,9 @@
 
 /* universal selector */
 * {
-    font-size: var(--default-font-size, 15pt);
+    font-size: var(--default-font-size, 10pt);
     text-align: center;
+    border-radius: 10px;
 }
 
 /* element selector*/
@@ -76,7 +81,7 @@ footer {
 }
 
 button {
-    background-color: red;
+    background-color: color(display-p3 1 0 0 / 1);
 }
 
 h2 {
