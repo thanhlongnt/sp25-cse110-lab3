@@ -33,7 +33,6 @@
 #Recordings {
     display: flex;
     align-items: center;
-
     gap: 20px;
     justify-content: center;
 }
@@ -66,9 +65,9 @@
 }
 
 /* element selector for a tags */
-a {
-
-}
+/* a {
+    display: block;
+} */
 
 fieldset {
     display: grid;
@@ -84,6 +83,10 @@ fieldset {
 /* attribute selector for text input (the bottom form) */
 input[type="text"] {
 
+}
+
+footer {
+    display: none;
 }
 
 button {
@@ -121,8 +124,12 @@ div p {
 }
 
 /* Child Combinator */
-div > p{
+nav > a {
+    display: block;
+}
 
+details > a {
+    display: block;
 }
 
 /* General sibling combinator */
