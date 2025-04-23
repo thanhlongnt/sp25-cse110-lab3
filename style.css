@@ -33,7 +33,6 @@
 #Recordings {
     display: flex;
     align-items: center;
-
     gap: 20px;
     justify-content: center;
 }
@@ -84,6 +83,10 @@ fieldset {
 /* attribute selector for text input (the bottom form) */
 input[type="text"] {
 
+}
+
+footer {
+    display: none;
 }
 
 button {
