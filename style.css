@@ -10,15 +10,14 @@
 .Title {
     position: sticky;
     top: 0;
-
     background-color: lightsalmon;
-
     margin:auto;
     width: 45%;
     height: 100%;
     padding: 20px;
     border: 5px solid black;
-
+    font-family: 'Playwrite AU SA', sans-serif;
+    font-size: 1.5em;
 }
 
 /* id selector */
