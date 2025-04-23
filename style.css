@@ -3,10 +3,6 @@
 }
 
 /* class selector */
-.Attendance{
-
-}
-
 .Title {
     position: sticky;
     top: 0;
@@ -20,10 +16,6 @@
 }
 
 /* id selector */
-#Meeting_content{
-
-}
-
 #text_recording {
     width: 10%;
 }
@@ -37,13 +29,11 @@
 
 #Attendance{
     text-align: center;
-
     margin:auto;
     width: 50%;
     height: 100%;
     padding: 20px;
     border: 5px solid black;
-    
     background-color: lightgray;
 }
 
@@ -62,11 +52,7 @@
     text-align: center;
 }
 
-/* element selector for a tags */
-/* a {
-    display: block;
-} */
-
+/* element selector*/
 fieldset {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -80,13 +66,9 @@ img {
     max-width: 10in;
 }
 
-/* fieldset > * {
-    border: 1px solid black;
-} */
-
 /* attribute selector for text input (the bottom form) */
 input[type="text"] {
-
+    background-color: bisque;
 }
 
 footer {
@@ -124,8 +106,8 @@ ul, ol, li {
 }
 
 /* descendant combinator (all p tags in divs) */
-div p {
-
+ul li {
+    color: darkgreen;
 }
 
 /* Child Combinator */
@@ -138,24 +120,25 @@ details > a {
 }
 
 /* General sibling combinator */
-p.question ~ p.instruction {
-
+h2 ~ p {
+   color: saddlebrown; 
 }
 
 /* Adjacent sibling combinator */
-p.question + input.color {
-
+h2 + ol {
+    color: brown;
 }
 
 /* Combining Two Selectors */
-div.Agenda {
-
+div.Meeting_content {
+    background-color: aquamarine;
 }
 
 /* :has() selector for image*/
 div:has(img) {
-    
+    background-color: rgb(34, 69, 34);
 }
+
 @media (min-width: 1000px) {
     body {
         background-color: lightblue;
