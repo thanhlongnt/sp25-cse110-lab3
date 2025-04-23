@@ -77,6 +77,7 @@ fieldset {
 img {
     min-width: 6in;
     min-height: 6in;
+    max-width: 10in;
 }
 
 /* fieldset > * {
