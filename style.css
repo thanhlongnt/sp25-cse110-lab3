@@ -1,5 +1,5 @@
 :root{
-    --default-font-size: 20px;
+    --default-font-size: 15pt;
 }
 
 /* class selector */
@@ -12,9 +12,8 @@
     top: 0;
     background-color: lightsalmon;
     margin:auto;
-    width: 45%;
-    height: 100%;
-    padding: 20px;
+    width: 40vw;
+    padding: 5px;
     border: 5px solid black;
     font-family: 'Playwrite AU SA', sans-serif;
     font-size: 1.5em;
@@ -59,7 +58,7 @@
 
 /* universal selector */
 * {
-    font-size: var(--default-font-size, 20px);
+    font-size: var(--default-font-size, 15pt);
     text-align: center;
 }
 
@@ -73,6 +72,11 @@ fieldset {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
     align-items: center;
+}
+
+img {
+    min-width: 6in;
+    min-height: 6in;
 }
 
 /* fieldset > * {
@@ -92,6 +96,11 @@ button {
     background-color: red;
 }
 
+h2 {
+    font-size: 30pt;
+    margin: 1px;
+}
+
 /* psuedo class css and selector */
 button:hover {
     background-color: yellow;
@@ -105,16 +114,11 @@ button:active{
     transform: scale(0.9);
 }
 
+/* selector list */
 ul, ol, li {
     list-style-position: inside; 
     position: relative;
     right: 10px;
-}
-
-/* selector list */
-/* applies the same css for 1, 2, 3 */
-h1, h2, h3 {
-    
 }
 
 /* descendant combinator (all p tags in divs) */
