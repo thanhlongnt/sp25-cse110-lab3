@@ -28,7 +28,6 @@
 
 #Attendance{
     text-align: center;
-    position: static;
 
     margin:auto;
     width: 50%;
@@ -48,7 +47,6 @@
     padding: 20px;
     border: 3px solid black;
 }
-
 
 /* universal selector */
 * {
@@ -83,8 +81,10 @@ button:active{
     transform: scale(0.9);
 }
 
-ul, ol{
+ul, ol, li {
     list-style-position: inside; 
+    position: relative;
+    right: 10px;
 }
 
 /* selector list */
