@@ -26,6 +26,18 @@
 
 }
 
+#text_recording {
+    width: 10%;
+}
+
+#Recordings {
+    display: flex;
+    align-items: center;
+
+    gap: 20px;
+    justify-content: center;
+}
+
 #Attendance{
     text-align: center;
 
@@ -40,7 +52,6 @@
 
 #Feedback_Form {
     text-align: center;
-    position: center;
     margin:auto;
     width: 50%;
     height: 100%;

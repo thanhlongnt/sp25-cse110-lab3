@@ -74,16 +74,19 @@
                 <img id="flowchart" src="web_files/Diagram.png" alt="diagram">
             </div>
 
+            <h2>Meeting Recordings</h2>
             <div class="Recordings" id="Recordings">
-                <h2>Meeting Recordings</h2>
-
-                <p>In case you missed the meeting, here is a recording of the meeting in audio and video format!</p>
+                <div id="text_recording">
+                    <p>In case you missed the meeting, here is a recording of the meeting in audio and video format!</p>
+                </div>
+                
+                
                 <audio controls id="audio-recording">
                     <source src="web_files/meeting_recording.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
 
-                <details>
+                <details id="video">
                     <summary>Click to see the video recording</summary>
                     <video src="web_files/meeting_recording.mov" controls>
                         Your browser does not support the video tag.
