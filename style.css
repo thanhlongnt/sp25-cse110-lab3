@@ -70,6 +70,17 @@ a {
 
 }
 
+fieldset {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    align-items: center;
+}
+
+/* fieldset > * {
+    border: 1px solid black;
+} */
+
 /* attribute selector for text input (the bottom form) */
 input[type="text"] {
 

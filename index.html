@@ -103,16 +103,20 @@
 
                 <form>
                     <fieldset> 
-                        <div class="Text Input">
+                        <div>
                             <p class="instruction">Please enter your name, or you can remain anonymous</p>
                             <input type="text" id="name" name="name">
+                        </div>
 
+                        <div>
                             <p class="question">Did you like our ice breaker?</p>
                             <select name="yay_nay">
                                 <option value="yes">YES!</option>
                                 <option value="no">no...</option>
                             </select>
-                            
+                        </div>
+
+                        <div>
                             <p class="question">Any questions/concerns/suggestions?</p>
                             <textarea placeholder="Write any questions/concerns/suggestions here"></textarea>
                         </div>
@@ -126,17 +130,11 @@
                                 <option value="green">
                             </datalist>
                         </div>
-                        
-
-                        <p></p>
 
                         <div class="Date">
                             <p class="instruction">Please include the <i>date</i> that you are submitting this comment</p>
                             <input type="date" id="date_input" name="date_input">
                         </div>
-                        
-
-                        <p></p>
 
                         <div class="Productivity">
 
@@ -154,11 +152,9 @@
                             <input type="radio" id="Not_Productive" name="productivity" value="Not Productive">
                             <label for="Not_Productive">Not productive</label>
                         </div>
-
-                        <br>
                         
-                        <button type="submit">Submit</button>
                     </fieldset>
+                    <button type="submit">Submit</button>
                 </form>
 
         </div>
