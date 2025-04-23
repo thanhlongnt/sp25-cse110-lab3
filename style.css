@@ -7,6 +7,20 @@
 
 }
 
+.Title {
+    position: sticky;
+    top: 0;
+
+    background-color: lightsalmon;
+
+    margin:auto;
+    width: 45%;
+    height: 100%;
+    padding: 20px;
+    border: 5px solid black;
+
+}
+
 /* id selector */
 #Meeting_content{
 
@@ -14,7 +28,6 @@
 
 #Attendance{
     text-align: center;
-    position: center;
 
     margin:auto;
     width: 50%;
@@ -34,7 +47,6 @@
     padding: 20px;
     border: 3px solid black;
 }
-
 
 /* universal selector */
 * {
@@ -69,8 +81,10 @@ button:active{
     transform: scale(0.9);
 }
 
-ul, ol{
+ul, ol, li {
     list-style-position: inside; 
+    position: relative;
+    right: 10px;
 }
 
 /* selector list */
