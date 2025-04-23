@@ -144,3 +144,8 @@ div.Agenda {
 div:has(img) {
     
 }
+@media (min-width: 1000px) {
+    body {
+        background-color: lightblue;
+    }
+}
