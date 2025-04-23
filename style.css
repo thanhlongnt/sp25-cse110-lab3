@@ -65,9 +65,9 @@
 }
 
 /* element selector for a tags */
-a {
-
-}
+/* a {
+    display: block;
+} */
 
 fieldset {
     display: grid;
@@ -124,8 +124,12 @@ div p {
 }
 
 /* Child Combinator */
-div > p{
+nav > a {
+    display: block;
+}
 
+details > a {
+    display: block;
 }
 
 /* General sibling combinator */
