@@ -99,6 +99,7 @@ button {
 h2 {
     font-size: 30pt;
     margin: 1px;
+    text-decoration:underline;
 }
 
 /* psuedo class css and selector */
